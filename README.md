@@ -1,15 +1,10 @@
 #okayNav jQuery Plugin
 
-[![Join the chat at https://gitter.im/VPenkov/okayNav](https://badges.gitter.im/VPenkov/okayNav.svg)](https://gitter.im/VPenkov/okayNav?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)  
-
 
 You know how navigations have only a desktop and a mobile state, right? I thought, "this might cost people money because it requires additional click for users to reach even the most important pages."
 
 This navigation aims at progressively collapsing navigation links into an off-screen navigation instead of doing it for all the links at the same time. Check out this example:
 
-![okayNav Demo](demo.gif)
-
-Or play with it on [CodePen](http://codepen.io/VPenkov/pen/wMZBOg).
 
 ## How to Use
 This is the code used in the example:
@@ -18,7 +13,7 @@ This is the code used in the example:
     <a class="site-logo" href="#">
        Logo
     </a>
-    
+
     <nav role="navigation" id="nav-main" class="okayNav">
         <ul>
             <li><a href="#">Home</a></li>
@@ -101,11 +96,6 @@ The following features will be implemented at the next versions:
 
 Pull requests are appreciated.
 
-## License
-Licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Support
-Please use the GitHub issues for support requests. If you need someone to implement okayNav for you, hit me up at [vergil@moongrab.com](vergil@moongrab.com).
 
 ## Changelog
 **2.0.1**  
@@ -121,18 +111,3 @@ Please use the GitHub issues for support requests. If you need someone to implem
 - The beforeOpen/beforeClose callbacks now only trigger if swipe is disabled (for obvious reasons).
 
 [Scroll up](#default-options) to see the defaults for more information!
-
-**1.0.2**  
-Resize events are now a lot more efficient
-
-**1.0.1**  
-First public version
-
-## Tell me what you've created
-Ping me on [Facebook](http://fb.com/vergil.penkov) or [Twitter](http://twitter.com/vergilpenkov). I'd definitely love to see what you've done with okayNav!
-
-## Contributors
-Many thanks to [@Bloodb0ne](https://github.com/bloodb0ne) for the enormous help with swipe actions!
-
-## Buy me a beer
-I appreciate good beer and good coffee. If you find this plugin useful and want to say thanks, there's no better way to do it. My PayPal is [vergil@moongrab.com](vergil@moongrab.com).
